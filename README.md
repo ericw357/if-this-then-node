@@ -9,7 +9,7 @@ The new version is based on [IFTTT "Maker"](http://ifttt.com/maker) feature and 
 
 git clone IFTTN to wherever you want and run [NPM](https://www.npmjs.org/) afterwards to install all dependencies:
 ```
-git clone git@github.com:sebauer/if-this-then-node.git
+ git clone https://github.com/ericw357/if-this-then-node.git
 nmp install
 ```
 
