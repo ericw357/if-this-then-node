@@ -46,8 +46,11 @@ app.use(function (req, res, next) {
 });
 
 app.get('/ifttn/', function (req, res, next) {
-  res.send('<a href="https://github.com/sebauer/if-this-then-node" target="_blank">IFTTN - if-this-then-node</a> Version ' + helper.getVersion() + ' is up and running!');
+  res.send('IFTTN is up and running!');
 });
+/*  res.send('<a href="https://github.com/sebauer/if-this-then-node" target="_blank">IFTTN - if-this-then-node</a> Version ' + helper.getVersion() + ' is up and running!');
+});
+*/
 
 app.post('/ifttn/', function (req, res, next) {
   log.info('Request received');
